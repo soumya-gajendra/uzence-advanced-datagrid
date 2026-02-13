@@ -1,4 +1,4 @@
-import React, { useState, useRef, UIEvent, useMemo } from 'react';
+import React, { useState, useRef, type UIEvent, useMemo } from 'react';
 import { useVirtualizer } from './useVirtualizer';
 interface RowData {
   id: number;
